@@ -8,5 +8,5 @@ def oxford_comma(array)
     last_item = array[-1]
     last_item.insert(0, 'and')
     return array.join(',')
-    
+  end
 end
